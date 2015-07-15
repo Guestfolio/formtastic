@@ -64,6 +64,7 @@ module Formtastic
     include Formtastic::Helpers::ActionHelper
     include Formtastic::Helpers::ActionsHelper
     include Formtastic::Helpers::ErrorsHelper
+    include Formtastic::Helpers::LabelHelper
 
     # This is a wrapper around Rails' `ActionView::Helpers::FormBuilder#fields_for`, originally
     # provided to ensure that the `:builder` from `semantic_form_for` was passed down into

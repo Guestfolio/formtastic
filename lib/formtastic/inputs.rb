@@ -18,6 +18,7 @@ module Formtastic
     autoload :EmailInput
     autoload :FileInput
     autoload :HiddenInput
+    autoload :Label
     autoload :NumberInput
     autoload :NumericInput
     autoload :PasswordInput
